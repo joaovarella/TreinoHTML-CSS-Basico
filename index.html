@@ -4,22 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="./estilos/style.css"> 
     <title>Portifolio</title>
 </head>
 <body>
-    <header></header>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="index.html">Home</a>
+            <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
+            <!-- <a class="cabecalho__menu__link" href="curriculo.html">Curriculo</a> -->
+        </nav>
+
+    </header>
     <main class="apresentacao">
             <section class="apresentacao__conteudo">
             <h1 class="apresentacao__conteudo__titulo">Eleve seu negócio digital a outro nível <strong class="titulo-destaque">com um Front-end de qualidade!</strong></h1>
             <p class="apresentacao__conteudo__texto">Olá! Sou Joana Santos, desenvolvedora Front-end com especialidade em <strong>React, HTML e CSS</strong>. Ajudo pequenos negócios e designers a colocarem em prática boas ideias. Vamos conversar?</p>
             <div class="apresentacao__links">
-            <a class="apresentacao__links__link" href="https://instagram.com">Instagram</a>
-            <a class="apresentacao__links__link" href="https://github.com/joaovarella">Github</a>
+            <h2 class="apresentacao__links__subtitulo">Acesse minhas redes:</h2>
+            <a class="apresentacao__links__link" href="https://github.com/joaovarella">
+                <img src="Imagens/github.png" alt="Icon Github">
+                Github
+            </a>
+            <a class="apresentacao__links__link" href="https://linkedin.com/in/joaovarella">
+                <img src="Imagens/linkedin.png" alt="Icon linkedin">
+                LinkedIn
+            </a>
+            <a class="apresentacao__links__link" href="https://twitch.tv/soykiryn">
+                <img src="Imagens/twitch.png" alt="Icon Twitch">
+                Twitch
+            </a>
+
             </div>
             </section>
         <img src="Imagens/Imagem.jpg" alt="Foto da Joana Santos programando">
     </main>
-    <footer></footer>
+    <footer class="rodape">
+        <p>Desenvolvido por Joao Varella.</p>
+    </footer>
 </body>
 </html>
